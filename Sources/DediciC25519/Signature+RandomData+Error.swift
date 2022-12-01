@@ -1,8 +1,6 @@
 //
-//  File.swift
-//  
-//
-//  Created by Nicolas Klein on 01/12/2022.
+// Copyright (c) 2022 Dediĉi
+// SPDX-License-Identifier: AGPL-3.0-only
 //
 
 import Foundation
