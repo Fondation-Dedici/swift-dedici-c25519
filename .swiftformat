@@ -1,0 +1,26 @@
+--swiftversion 5.7
+--header "\nCopyright (c) {year} Dediĉi\nSPDX-License-Identifier: AGPL-3.0-only\n"
+
+--enable wrapEnumCases
+--enable blankLinesBetweenImports
+--enable blockComments
+
+--disable strongOutlets
+--exclude Pods,Carthage,.build,.swiftpm,.spm,fastlane,vendor,.git
+
+--patternlet inline
+--ifdef no-indent
+--self init-only
+--importgrouping testable-last
+--maxwidth 120
+--extensionacl on-declarations
+--funcattributes prev-line
+--typeattributes prev-line
+--varattributes prev-line
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--wrapreturntype preserve
+--wrapconditions before-first
+--wraptypealiases before-first
+--closingparen balanced
