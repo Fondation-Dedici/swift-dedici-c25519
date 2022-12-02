@@ -1,4 +1,4 @@
-# c25519
+# DediciC25519
 
 This package is basically a wrapper around https://github.com/christophhagen/CCurve25519 and was made in context of the development of the [Dediĉi_code project (fr)](https://www.dedici.org/dedici_code). The idea is to provide an API that feels closer to [swift-crypto](https://github.com/apple/swift-crypto)'s API which is also used in this to generate private keys.
 
