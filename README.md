@@ -2,7 +2,7 @@
 
 This package is basically a wrapper around https://github.com/christophhagen/CCurve25519 and was made in context of the development of the [Dediĉi_code project (fr)](https://www.dedici.org/dedici_code). The idea is to provide an API that feels closer to [swift-crypto](https://github.com/apple/swift-crypto)'s API which is also used in this to generate private keys.
 
-⚠️ Warning: Please do not use this package in any of your production projects as it is not yet ready for production.
+⚠️ Warning: Please do not use this package in any of your production projects as it is not yet ready for production. This package still needs more tests and reviews.
 
 ## Cryptography Notice
 
